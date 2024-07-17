@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "baseUrl": "./",
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "isolatedModules": false,
+        "strict": false,
+        "noImplicitAny": false,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "moduleResolution": "node",
+        "outDir": "dist"
+    },
+    "compileOnSave": true,
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "./**/*.ts"
+    ]
+}
